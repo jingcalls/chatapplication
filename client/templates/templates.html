@@ -1,0 +1,11 @@
+<template name="chatapplication">
+{{#each chatmessages}}
+	<div class="alert alert-info">
+		<b>{{name}}</b> : {{text}} <button class="btn btn-danger btn-small btn-delete">&times;</button>
+	</div>
+{{/each}}
+<form class="form">
+	<input type="text" class="form-control txtName" placeholder="Name"/>
+	<input type="text" class="form-control txtMessage" placeholder="Message"/>
+</form>
+</template> 

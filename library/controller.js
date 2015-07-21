@@ -1,0 +1,1 @@
+Chatmessages = new Mongo.Collection("chatmessages");
